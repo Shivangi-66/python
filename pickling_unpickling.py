@@ -11,9 +11,9 @@ pickle.dump(skill, pickle_file)
 pickle_file.close()
 
 # unpickling
-"""import pickle
+import pickle
 pickle_file=open("emp1.txt","rb")
 name_list=pickle.load(pickle_file)
 skill_list=pickle.load(pickle_file)
 print(name_list)
-print(skill_list)"""
+print(skill_list)
